@@ -1,0 +1,34 @@
+body {
+    padding-top: 20px;
+    background-image: url("images/Background-Rosas.png");
+    background-color: #00ffffcc;
+}
+
+.mainClass {
+    width: 75%;
+    margin:auto;
+    height: 200cm;
+    background-color:#ff99ff;
+    padding: 20px;
+}
+
+img {
+    border: 1px solid green;
+    max-width:1000px;
+}
+
+nav {
+    border: 1px solid #000;
+    
+}
+
+a {
+    color: red;
+    padding:10px;
+}
+
+ul {
+    border: 1px solid yellow;
+    width:60%;
+    text-align:right;
+}
