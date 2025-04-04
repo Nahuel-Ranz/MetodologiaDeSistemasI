@@ -1,25 +1,49 @@
 body {
-    padding-top: 20px;
+    padding-top: 25px;
     background-image: url("images/Background-Rosas.png");
     background-color: #00ffffcc;
 }
 
+header {
+    width:75%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 20px;
+}
+header p {
+    color: red;
+    font-size:40px;
+}
 .mainClass {
+    background-color:#44ffff;
     width: 75%;
     margin:auto;
-    height: 200cm;
-    background-color:#ff99ff;
-    padding: 20px;
+    height: 100cm;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
 
 img {
-    border: 1px solid green;
-    max-width:1000px;
+    border: 10px solid aquamarine;
+    border-radius: 16px;
+    box-shadow: 20px 20px 50px #33ffdd;
+    margin-left:0;
+    margin-right: 15px;
+    /*transform:scale(0.5) rotate(45deg); /*scales the element to the specified value between parenthesis*/
+    /*transform: skew(); italic*/
+    width: 250px;
+    height: 250px;
+    float:left;
 }
 
 nav {
     border: 1px solid #000;
-    
+    padding:0;
+    height: 3%;
 }
 
 a {
@@ -28,7 +52,25 @@ a {
 }
 
 ul {
-    border: 1px solid yellow;
-    width:60%;
+    box-sizing:border-box;
+    border: 5px solid darkorange;
+    background-color:aqua;
+    padding-left:0;
     text-align:right;
+    height: 300px;
+}
+
+li {
+    background: linear-gradient(blue, yellow);
+    border: 0.1cm dashed #fF0;
+    display:inline;
+    padding:0;
+    height:300px;
+}
+
+.d:hover {
+    height:1cm;
+    width:1cm;
+    border: 10px solid red;
+    transition: 2s linear 0.5s;
 }
